@@ -1,3 +1,17 @@
+## USAGE (BACKEND):
+
+Make sure to install docker first https://www.docker.com/products/docker-desktop. After you installed docker run these commands
+
+docker-compose up -d
+
+Then after the images are pulled and are running run this command
+
+docker exec backend /bin/sh start.sh
+
+The API is ready to be consumed on http://localhost:8000
+
+## NextJS (FRONTEND):
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
