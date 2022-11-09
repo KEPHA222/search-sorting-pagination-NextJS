@@ -31,7 +31,7 @@ const Layout = (props) => {
                   </a>
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link href="/backend" legacyBehavior>
                   <a
                     className={
@@ -43,7 +43,7 @@ const Layout = (props) => {
                     Backend
                   </a>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </header>
         </div>
